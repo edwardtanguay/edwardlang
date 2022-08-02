@@ -1,0 +1,205 @@
+[
+    {
+        "english": "to speak",
+        "verb": "hablar",
+        "type": "regular",
+        "present": "hablo, hablas, habla, hablamos, habláis, hablan",
+        "imperfect": "hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban",
+        "preterite": "hablé, hablaste, habló, hablamos, hablasteis, hablaron",
+        "future": "hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán",
+        "conditional": "hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían",
+        "subjunctive": "hable, hables, hable, hablemos, habléis, hablen",
+        "gerund": "hablando",
+        "pastParticiple": "hablado",
+        "phrases": [
+            "Hablaremos de eso después. / We'll talk about it later.",
+            "¿Conoces algún médico que hable japonés?",
+            "Él habló de música.",
+            "Hablaba mucho, pero no decía nada. / He talked a lot but didn't say anything."
+        ]
+    },
+    {
+        "english": "to eat",
+        "verb": "comer",
+        "type": "regular",
+        "present": "como, comes, come, comemos, coméis, comen",
+        "imperfect": "comía, comías, comía, comíamos, comíais, comían",
+        "preterite": "comí, comiste, comió, comimos, comisteis, comieron",
+        "future": "comeré, comerás, comerá, comeremos, comeréis, comerán",
+        "conditional": "comería, comerías, comería, comeríamos, comeríais, comerían",
+        "subjunctive": "coma, comas, coma, comamos, comáis, coman",
+        "gerund": "comiendo",
+        "pastParticiple": "comido",
+        "phrases": [
+            "Me comería algo. / I feel like eating something.",
+            "Le prometí a Tom que comería con él."
+        ]
+    },
+    {
+        "english": "to live",
+        "verb": "vivir",
+        "type": "regular",
+        "present": "vivo, vives, vive, vivimos, vivís, viven",
+        "imperfect": "vivía, vivías, vivía, vivíamos, vivíais, vivían",
+        "preterite": "viví, viviste, vivió, vivimos, vivisteis, vivieron",
+        "future": "viviré, vivirás, vivirá, viviremos, viviréis, vivirán",
+        "conditional": "viviría, vivirías, viviría, viviríamos, viviríais, vivirían",
+        "subjunctive": "viva, vivas, viva, vivamos, viváis, vivan",
+        "gerund": "viviendo",
+        "pastParticiple": "vivido",
+        "phrases": [
+            "Alquilábamos un apartamento cuando vivíamos en Madrid.",
+            "Una vez viví en Roma.",
+            "Es un bonito lugar, pero yo no viviría allí.",
+            "Trabaja para vivir, no vivas para trabajar.",
+            "El vivió una vida tranquila en el campo.",
+            "A menudo visitaba el museo cuando vivía en Kioto.",
+            "Viví allá hace tres años.",
+            "¿Cuántas personas vivirán en la Tierra dentro de un siglo?",
+            "¿Cuánto tiempo viviste ahí?",
+            "¿Piensas que sea extraño que viva solo?",
+            "¿Viviste aquí?",
+            "Descubre como vivieron, y descubrirás cómo murieron.",
+            "Mary y su novio vivieron juntos cuatro años.",
+            "Viviremos como reyes.",
+            "No sé dónde viviremos el año próximo."
+        ],
+        "memory": [
+            "pres: -ìs",
+            "imp: 6x vivía-",
+            "pres-pret: vivimos",
+            "pret: -eron"
+        ]
+    },
+    {
+        "verb": "pedir",
+        "english": "to ask",
+        "type": "stemChangeEtoI",
+        "present": "pido, pides, pide, pedimos, pedís, piden",
+        "imperfect": "pedía, pedías, pedía, pedíamos, pedíais, pedían",
+        "preterite": "pedí, pediste, pidió, pedimos, pedisteis, pidieron",
+        "future": "pediré, pedirás, pedirá, pediremos, pediréis, pedirán",
+        "conditional": "pediría, pedirías, pediría, pediríamos, pediríais, pedirían",
+        "subjunctive": "pida, pidas, pida, pidamos, pidáis, pidan",
+        "phrases": [
+            "Forcé a mi madre a darme lo que pedía. / I forced my mother to give me what I was asking.",
+            "Ella le pidió dinero. / She asked him for some money.",
+            "Tom le pedirá a Mary que lo haga de inmediato. / Tom will ask Mary to do that at once.",
+            "No te lo pediría si no fuera importante. / I wouldn't ask you this if it were not important.",
+            "Necesito que conectes los dos cables en el momento que te lo pida. / I need you to connect these two cables when I tell you."
+        ]
+    },
+    {
+        "verb": "repetir",
+        "english": "to repeat",
+        "type": "stemChangeEtoI",
+        "present": "repito, repites, repite, repetimos, repetís, repiten",
+        "imperfect": "repetía, repetías, repetía, repetíamos, repetíais, repetían",
+        "preterite": "repetí, repetiste, repitío, repetimos, repetisteis, repitieron",
+        "future": "repetiré, repetirás, repetirá, repetiremos, repetiréis, repetirán",
+        "conditional": "repetiría, repetirías, repetiría, repetiríamos, repetiríais, repetirían",
+        "subjunctive": "repita, repitas, repita, repitamos, repitáis, repitan",
+        "phrases": [
+            "Repite cada frase después de mí.",
+            "Sé que no se repetirá. / I know that won't happen again.",
+            "Se repite demasiado. / It happens too often.",
+            "Yo no repetiría eso.",
+            "Yo sólo repetía su opinión. / I was just repeating his opinion.",
+            "Ella repetía lo que había oído a su madre.",
+            "Él repitió su pregunta.",
+            "¿Quieres que lo repita?"
+        ]
+    },
+    {
+        "verb": "comenzar",
+        "english": "to begin",
+        "type": "eToIeAndZToCBeforeE",
+        "present": "comienzo, comienzas, comienza, comenzamos, comenzáis, comienzan",
+        "imperfect": "comenzaba, comenzabas, comenzaba, comenzábamos, comenzabais, comenzaban",
+        "preterite": "comencé, comenzaste, comenzó, comenzamos, comenzasteis, comenzaron",
+        "future": "comenzaré, comenzarás, comenzará, comenzaremos, comenzaréis, comenzarán",
+        "conditional": "comenzaría, comenzarías, comenzaría, comenzaríamos, comenzaríais, comenzarían",
+        "subjunctive": "comience, comiences, comience, comencemos, comencéis, comiencen",
+        "phrases": [
+            "Sus prolongadas ausencias comenzaban a suscitar sospecha. / His long absences were starting to provoke suspicion.",
+            "Comenzó a llover. / It began to rain.",
+            "Los tres comenzaron a reírse. / The three of them began to laugh.",
+            "Creo que comenzaré con una botella de cerveza.",
+            "¿Dónde quieres que comience?"
+        ]
+    },
+    {
+        "verb": "llegar",
+        "english": "to arrive",
+        "type": "addUInPreteriteAndSubjunctive",
+        "present": "llego, llegas, llega, llegamos, llegáis, llegan",
+        "imperfect": "llegaba, llegabas, llegaba, llegábamos, llegabais, llegaban",
+        "preterite": "llegué, llegaste, llegó, llegamos, llegasteis, llegaron",
+        "future": "llegaré, llegarás, llegará, llegaremos, llegaréis, llegarán",
+        "conditional": "llegaría, llegarías, llegaría, llegaríamos, llegaríais, llegarían",
+        "subjunctive": "llegue, llegues, llegue, lleguemos, lleguéis, lleguen",
+        "phrases": [
+            "Llegué a Tokio ayer. / I arrived in Tokyo yesterday.",
+            "Ella le llamó para anunciarle que llegaría tarde. / She called him to say that she'd be late.",
+            "Escríbame cuando llegues. / Write me when you arrive.",
+            "Ven aunque llegues tarde. / Come even if you'll be late."
+        ]
+    },
+    {
+        "verb": "pagar",
+        "english": "to pay",
+        "type": "gToGuAfterE",
+        "present": "pago, pagas, paga, pagamos, pagáis, pagan",
+        "imperfect":"pagaba, pagabas, pagaba, pagábamos, pagabais, pagaban",
+        "preterite":"pagué, pagaste, pagó, pagamos, pagasteis, pagaron",
+        "future":"pagaré, pagarás, pagará, pagaremos, pagaréis, pagarán",
+        "conditional":"pagaría, pagarías, pagaría, pagaríamos, pagaríais, pagarían",
+        "subjunctive":"pague, pagues, pague, paguemos, paguéis, paguen",
+        "phrases":[
+            "Pagué la cuenta. [pah-GAY] / I paid the bill.",
+            "Nosotros lo pagaremos. / We'll pay for it.",
+            "Si yo supiera cómo usar un ordenador, tal vez me pagarían más. / If I knew how to use a computer, maybe they would pay me more.",
+            "Déjame que yo pague el almuerzo. [PAH-ghay] / Let me buy you lunch.",
+            "¡No vuelo en esa cosa ni aunque me paguen! / I'm not flying on that thing even if I was paid to!"
+        ]
+    },
+    {
+        "verb": "haber",
+        "english": "to have (auxiliary verb)",
+        "type": "haber-auxiliary",
+        "present": "he, has, ha, hemos, habéis, han",
+        "imperfect": "había, habías, había, habíamos, habíais, habían",
+        "preterite":"hube, hubiste, hubo, hubimos, hubisteis, hubieron",
+        "future":"habré, habrás, habrá, habremos, habréis, habrán",
+        "conditional":"habría, habrías, habría, habríamos, habríais, habrían",
+        "subjunctive":"haya, hayas, hayas, hayamos, hayáis, hayan"
+    },
+    {
+        "verb": "estar",
+        "english": "to be (temporary)",
+        "type": "estar",
+        "present": "estoy, estás, está, estamos, estáis, están",
+        "imperfect":"estaba, estabas, estaba, estábamos, estabais, estaban",
+        "preterite":"estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron",
+        "future":"estaré, estarás, estará, estaremos, estaréis, estarán",
+        "conditional":"estaría, estarías, estaría, estaríamos, estaríais, estarían",
+        "subjunctive":"esté, estés, esté, estemos, estéis, estén"
+    },
+    {
+        "verb":"ser",
+        "english":"to be (permanent)",
+        "type":"ser",
+        "present":"soy, eres, es, somos, sois, son",
+        "imperfect":"era, eras, era, éramos, erais, eran",
+        "preterite":"fui, fuiste, fue, fuimos, fuisteis, fueron",
+        "future":"seré, serás, será, seremos, seréis, serán",
+        "conditional":"sería, serías, sería, seríamos, seríais, serían",
+        "subjunctive":"sea, seas, sea, seamos, seáis, sean"
+    },
+    {
+        "verb":"ir",
+        "english":"to go",
+        "type":"ir",
+        "present": "voy, vas, va, vamos, vais, van"
+    }
+]
