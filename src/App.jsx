@@ -30,6 +30,20 @@ function App() {
                             {rule.expanded && (
                                 <div className="backSide">
                                     <div className="back">{rule.back}</div>
+                                    {rule.notes && (
+                                        <ul className="notes">
+                                            {rule.notes.map((note, i) => {
+                                                return <li>{note}</li>;
+                                            })}
+                                        </ul>
+                                    )}
+                                    {rule.examples && (
+                                        <ul className="examples">
+                                            {rule.examples.map((example, i) => {
+                                                return <li>{example}</li>;
+                                            })}
+                                        </ul>
+                                    )}
                                 </div>
                             )}
                         </div>
