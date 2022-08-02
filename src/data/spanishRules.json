@@ -1,7 +1,12 @@
 [
     {
         "front": "regular imperfect -ar endings",
-        "back": "-aba, -abas, -aba, -ábamos, -abais, -aban"
+        "back": "-aba, -abas, -aba, -ábamos, -abais, -aban",
+		"examples":[
+			"¿De qué hablabais? / What did you all talk about?",
+			"¿De qué hablabais Roberto y tú ayer por la noche? / What did you and Roberto talk about last night?",
+			"Hablábamos con frecuencia de nuestro futuro. / We would often talk about our future."
+		]
     },
     {
         "front": "regular imperfect -er/-ir endings",
@@ -48,7 +53,11 @@
     {
         "front": "irregular imperfect: ir",
         "back": "iba, ibas, iba, íbamos, ibais, iban",
-        "notes": ["1x accent in nosotros as with ser"]
+        "notes": ["1x accent in nosotros as with ser"],
+		"examples":[
+			"Pensé que íbamos a ganar. / I thought we were going to win.",
+			"César y yo íbamos a menudo  / César and I would often go to the movies."
+		]
     },
     {
         "front": "irregular imperfect: ser",
