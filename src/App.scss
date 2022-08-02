@@ -8,8 +8,23 @@ body {
 		margin: 0;
 	}
 
+	h2 {
+		background: #444;
+	}
+
+	.rule {
+		margin-bottom: 1rem;
+		.frontSide {
+			cursor: pointer;
+		}
+		.backSide {
+			color: rgb(216, 216, 84);
+		}
+	}
+
 	.verb {
 		margin-bottom: 1rem;
+
 		.spanish {
 			color: #333;
 		}
