@@ -201,5 +201,25 @@
         "english":"to go",
         "type":"ir",
         "present": "voy, vas, va, vamos, vais, van"
+    },
+    {
+        "verb": "querer",
+        "english": "to want",
+        "type": "querer",
+        "present":"quiero, quieres, quiere, queremos, queréis, quieren",
+        "imperfect":"quería, querías, quería, queríamos, queríais, querían",
+        "preterite":"quise, quisiste, quiso, quisemos",
+        "future":"",
+        "conditional":"",
+        "subjunctive":"",
+        "phrases":[
+            "¿Quisiste conducir? / Did you want to drive?",
+            "Te quedaste fuera porque quisiste. / You stayed outside because you wanted to.",
+            "¿Por qué no quisiste ir a Australia? / Why didn't you want to go to Australia?",
+            "Nadie quiso ayudarnos. / Nobody wanted to help us.",
+            "Ella quiso ir al centro commercial. / She wanted to go to the shopping center.",
+            "Tampoco eso quise decir. / That's not what I meant either.",
+            "No quise hacer fotos. / I didn't want to take any pictures."
+        ]
     }
 ]

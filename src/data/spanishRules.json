@@ -1,0 +1,67 @@
+[
+    {
+        "front": "regular imperfect -ar endings",
+        "back": "-aba, -abas, -aba, -ábamos, -abais, -aban"
+    },
+    {
+        "front": "regular imperfect -er/-ir endings",
+        "back": "-ía, -ías, -ía, -íamos, -íais, -ían"
+    },
+    {
+        "front": "regular preterite -ar endings",
+        "back": "-é, -aste, -ó, -amos, -asteis, -aron"
+    },
+    {
+        "front": "regular preterite -er/-ir endings",
+        "back": "-í, -iste, -ió, -imos, -isteis, -ieron"
+    },
+    {
+        "front": "irregular preterite: ser",
+        "back": "fui, fuiste, fue, fuimos, fuisteis, fueron",
+        "notes": ["no accents as with preterite ir, dar and var"]
+    },
+    {
+        "front": "irregular preterite: ir",
+        "back": "fui, fuiste, fue, fuimos, fuisteis, fueron",
+        "examples": [
+            "¿Adónde fuisteis? / Where did you go?",
+            "¿Por qué no fuisteis? / Why didn't you go?"
+        ]
+    },
+    {
+        "front": "irregular preterite: dar",
+        "back": "di, diste, dio, dimos, disteis, dieron",
+        "examples": [
+            "Dio el primer paso. / He made the first move.",
+            "¿Quién te dio eso? / Who gave you this?",
+            "Le dimos una manzana. / We gave him an apple.",
+            "Los dimos la mano. / We shook hands.",
+            "¿Le diste la llave? / Did you give the key to him?"
+        ],
+        "notes": ["parallel to ver: vi, viste, vio, vimos, visteis, vieron"]
+    },
+    {
+        "front": "irregular preterite: ver",
+        "back": "vi, viste, vio, vimos, visteis, vieron",
+        "notes": ["parallel to dar: di, diste, dio, dimos, disteis, dieron"]
+    },
+    {
+        "front": "irregular imperfect: ir",
+        "back": "iba, ibas, iba, íbamos, ibais, iban",
+        "notes": ["1x accent in nosotros as with ser"]
+    },
+    {
+        "front": "irregular imperfect: ser",
+        "back": "era, eras, era, éramos, erais, eran",
+        "notes": ["1x accent in nosotros as with ir"]
+    },
+    {
+        "front": "irregular imperfect: ver",
+        "back": "veía, veías, veía, veíamos, veíais, veían",
+        "notes": ["6x accents", "[BAY-ya]"],
+        "examples": [
+            "Me veían. / They saw me.",
+            "Ambos se veían sospechosos. / Both of them seem suspicious."
+        ]
+    }
+]

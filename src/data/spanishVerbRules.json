@@ -64,5 +64,13 @@
     {
         "idCode": "addUInPreteriteAndSubjunctive",
         "rule": "add u to preterite first-person, and 6x subjunctive"
+    },
+    {
+        "idText":"querer",
+        "rules":[
+            "present: quier- 4x",
+            "preterite: quis- with no accents -e / -o",
+            "future/conditional: querr-"
+        ]
     }
 ]
