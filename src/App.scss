@@ -15,31 +15,39 @@ body {
 
 	.rule {
 		margin-bottom: 1rem;
+
 		.frontSide {
 			cursor: pointer;
 		}
+
 		.backSide {
 			background-color: #222;
 			margin: .7rem;
 			padding: .7rem;
 			color: rgb(216, 216, 84);
+
 			ul {
 				margin: .5rem 0 0 0;
 			}
+
 			ul.notes {
 				color: lightgreen;
 			}
+
 			ul.examples {
 				color: orange;
 			}
 		}
 	}
 
-	.verb {
+	.verbObj {
 		margin-bottom: 1rem;
-
-		.spanish {
-			color: #333;
+		.verb {
+			font-weight: bold;
 		}
+		.rules {
+			color: rgb(237, 237, 134);
+		}
+
 	}
 }
