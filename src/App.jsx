@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import './App.scss';
-import spanishVerbs from './data/spanishVerbs.json';
 import initialSpanishRules from './data/spanishRules.json';
+import initialSpanishVerbKinds from './data/spanishVerbKinds.json';
 
 initialSpanishRules.forEach((m) => (m.expanded = false));
+initialSpanishVerbKinds.forEach((m) => (m.expanded = false));
 
 function App() {
     const [spanishRules, setSpanishRules] = useState(initialSpanishRules);
+    const [spanishVerbKindss, setSpanishVerbKinds] = useState(initialSpanishVerbKinds);
 
     const handleToggleRule = (rule) => {
         rule.expanded = !rule.expanded;
@@ -16,6 +18,20 @@ function App() {
     return (
         <div className="App">
             <h1>Edward's Language Site</h1>
+            <div className="verbs">
+                {spanishVerbKindss.map((verbKind, i) => {
+                    return (
+                        <div className="verbKind" key={i}>
+                            <div className="title"><h2>{verbKind.title}</h2></div>
+                            {verbKind.list.map((verbObj, i) => {
+                                return (
+                                    <div className="verb">{verbObj.verb}</div>
+                                )
+                            })}
+                        </div>
+                    );
+                })}
+            </div>
             <h2>Rules</h2>
             <div className="rules">
                 {spanishRules.map((rule, i) => {
@@ -51,17 +67,6 @@ function App() {
                 })}
             </div>
 
-            <h2>Verbs</h2>
-            <div className="verbs">
-                {spanishVerbs.map((verb, i) => {
-                    return (
-                        <div className="verb" key={i}>
-                            <div className="english">{verb.english}</div>
-                            <div className="spanish">{verb.verb}</div>
-                        </div>
-                    );
-                })}
-            </div>
         </div>
     );
 }
