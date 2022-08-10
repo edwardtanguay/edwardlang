@@ -17,7 +17,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Edward's Language Site</h1>
+            <h1>Edward's Spanish Site</h1>
             <div className="verbs">
                 {spanishVerbKindss.map((verbKind, i) => {
                     return (
