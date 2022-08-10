@@ -12,8 +12,7 @@
 			{ "verb": "ayudar" },
 			{ "verb": "pasar" },
 			{
-				"verb": "intentar",
-				"notes": "to try on = probarse, to try as in to taste = probar"
+				"verb": "intentar"
 			},
 			{
 				"verb": "echar",
@@ -68,7 +67,6 @@
 			}
 		],
 		"listOld": {
-			"estar": ["estar"],
 			"dar": ["dar"],
 			"preteriteYo-and-subjunctive-lluege": ["llegar"],
 			"present-subjunctive-o-to-ue-when-accented": [
@@ -99,8 +97,23 @@
 		"idText": "regular-er",
 		"title": "Regular ER Verbs",
 		"rules": [],
-		"list": ["aprender"],
-		"listOld": "deber, comprender, correr, comer, suceder, responder, vender, meter, pretender, corresponder, depender, recorrer (to travel), ejercer, proteger"
+		"list": [
+			{ "word": "aprender" },
+			{ "word": "deber" },
+			{ "word": "comprender" },
+			{ "word": "correr" },
+			{ "word": "comer" },
+			{ "word": "suceder" },
+			{ "word": "responder" },
+			{ "word": "vender" },
+			{ "word": "meter" },
+			{ "word": "pretender" },
+			{ "word": "corresponder" },
+			{ "word": "depender" },
+			{ "word": "recorrer" },
+			{ "word": "ejercer" },
+			{ "word": "proteger" }
+		]
 	},
 	{
 		"idText": "irregular-er",
@@ -123,13 +136,18 @@
 				"rank": 5
 			},
 			{
-				"verb": "componer",
-				"rules": "compongo, compongas, compus-, compondr-, compuesto/compondiendo"
-			},
-			{
 				"verb": "haber",
 				"rules": "he, has, ha, hub-, habr-",
 				"rank": 5
+			},
+			{
+				"verb": "querer",
+				"rules": "e to ie; present: quiero...; preterite: quis-; future/conditional: querr",
+				"rank": 4.7
+			},
+			{
+				"verb": "componer",
+				"rules": "compongo, compongas, compus-, compondr-, compuesto/compondiendo"
 			},
 			{
 				"verb": "entender",
@@ -143,22 +161,43 @@
 		]
 	},
 	{
-		"idText": "almost-regular-ir",
-		"title": "Almost Regular IR Verbs",
-		"rules": [],
-		"list": "escribir (escrito)"
-	},
-	{
 		"idText": "regular-ir",
 		"title": "Regular IR Verbs",
 		"rules": [],
-		"list": "vivir, existir, occurir, permitir, recibir, partir, cumplir (to carry out), decidir, subir (to go up), sufrir (to experience), compartir (to divide up), consistir, insistir, asistir, discutir, definir, unir, coincidir (to agree), distinguir, admitir, acudir (to attend)"
+		"list": [
+			{ "word": "vivir" },
+			{ "word": "existir" },
+			{ "word": "occurir" },
+			{ "word": " permitir" },
+			{ "word": " recibir" },
+			{ "word": " partir" },
+			{ "word": " cumplir" },
+			{ "word": " decidir" },
+			{ "word": " subir" },
+			{ "word": " sufrir" },
+			{ "word": " compartir" },
+			{ "word": " consistir" },
+			{ "word": " insistir" },
+			{ "word": " asistir" },
+			{ "word": " discutir" },
+			{ "word": " definir" },
+			{ "word": " unir" },
+			{ "word": " coincidir" },
+			{ "word": " distinguir" },
+			{ "word": " admitir" },
+			{ "word": " acudir" }
+		]
 	},
 	{
 		"idText": "irregular-ir",
 		"title": "Irregular IR Verbs",
 		"rules": [],
 		"list": [
+			{
+				"verb": "ir",
+				"rules": "present: voy, vas, va, vamos, vais, van; imperfect: iba, ibas, iba, íbamos, ibais, iban; preterite: fui, fuiste, fue, fuimos, fuisteis, fueron; subjunctive: vaya, vayas, vays, vayamos, vayáis, vayan",
+				"rank": 5
+			},
 			{
 				"verb": "escribir",
 				"rules": "escrito"
@@ -176,22 +215,6 @@
 				"verb": "conseguir",
 				"rules": "e to i; present: consigo, consigues, consigue, consiguen; preterite: consiguió, consiguieron; subjunctive: consiga..."
 			}
-		]
-	},
-	{
-		"idCode": "eToIeAndZToCBeforeE",
-		"rule": "i to ie when accented and z to c before e"
-	},
-	{
-		"idCode": "addUInPreteriteAndSubjunctive",
-		"rule": "add u to preterite first-person, and 6x subjunctive"
-	},
-	{
-		"idText": "querer",
-		"rules": [
-			"present: quier- 4x",
-			"preterite: quis- with no accents -e / -o",
-			"future/conditional: querr-"
 		]
 	}
 ]
