@@ -32,6 +32,17 @@
 			},
 			{
 				"verb": "terminar"
+			},
+			{
+				"verb": "fascinar"
+			},
+			{
+				"verb": "planear",
+				"examples": [
+					"No planeé hacerlo. / I didn't plan on doing that.",
+					"Todo está planeado. / Everything was planned.",
+					"El consejo se reunió para planear la estrategia. / The council met to plan strategy."
+				]
 			}
 		],
 		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
@@ -41,7 +52,11 @@
 		"title": "Irregular AR Verbs",
 		"rules": [],
 		"list": [
-			{ "verb": "estar", "rules": "estoy, estás, está, estuv-, estar-" },
+			{
+				"verb": "estar",
+				"rules": "estoy, estás, está, estuv-, estar-",
+				"rank": 5
+			},
 			{
 				"verb": "dedicar",
 				"rules": "c to qu before e: present: dediqué, subjunctive: dedique...",
@@ -93,8 +108,19 @@
 		"rules": [],
 		"list": [
 			{
+				"verb": "ser",
+				"rules": "present: soy, eres, es, somos, sois, son; imperfect: era, eras, era, éramos, erais, eran; preterite: fui, fuiste, fue, fuimos, fuisteis, fueron; subjunctive: sea, seas, sea, seamos, seáis, sean",
+				"rank": 5
+			},
+			{
+				"verb": "hacer",
+				"rules": "present: hago, preterite: hic-/hiz-, future/conditional: har-, subjunctive: haga...",
+				"rank": 5
+			},
+			{
 				"verb": "tener",
-				"rules": "tengo, tienes, tuv-, tendr-, ten-"
+				"rules": "tengo, tienes, tuv-, tendr-, ten-",
+				"rank": 5
 			},
 			{
 				"verb": "componer",
@@ -102,7 +128,8 @@
 			},
 			{
 				"verb": "haber",
-				"rules": "he, has, ha, hub-, habr-"
+				"rules": "he, has, ha, hub-, habr-",
+				"rank": 5
 			},
 			{
 				"verb": "entender",
@@ -110,7 +137,8 @@
 			},
 			{
 				"verb": "poder",
-				"rules": "o to ue: puedo, pud-, podr-, pudiendo"
+				"rules": "o to ue: puedo, pud-, podr-, pudiendo",
+				"rank": 4.8
 			}
 		]
 	},
@@ -132,9 +160,21 @@
 		"rules": [],
 		"list": [
 			{
+				"verb": "escribir",
+				"rules": "escrito"
+			},
+			{
 				"verb": "introducir",
 				"rules": "introduzco, preterite: introduje, introdujo, introdujeron, subjunctive: introduzca, introduzcas, ...",
 				"examples": "Él introdujo la llave en la cerradura. / He inserted the key in the lock."
+			},
+			{
+				"verb": "sugerir",
+				"rules": "e to ie, present: sugiero..., preterite: sugirió, sugirieron, subjunctive: sugiera..."
+			},
+			{
+				"verb": "conseguir",
+				"rules": "e to i; present: consigo, consigues, consigue, consiguen; preterite: consiguió, consiguieron; subjunctive: consiga..."
 			}
 		]
 	},
