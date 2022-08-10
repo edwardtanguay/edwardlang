@@ -1,76 +1,157 @@
 [
-    {
-        "idText": "regular-ar",
-        "title": "Regular AR Verbs",
-        "rules": [
-            "for nosotros, present and preterite are the same",
-            "accents: 1-1-2-5-6-1",
-            "subjunctive is present with an e",
-            "imperfect: yo and nosotros are the same"
-        ],
-        "list": "pasar, quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), esperar, entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, ayudar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, echar (to fling), importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), matar (to kill), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
-    },
-    {
-        "idText": "irregular-ar",
-        "title": "Irregular AR Verbs",
-        "rules": [],
-        "list": {
-            "estar":["estar"],
-            "dar":["dar"],
-            "preteriteYo-and-subjunctive-lluege":["llegar"],
-            "present-subjunctive-o-to-ue-when-accented":["encontrar, contar, recordar, mostrar, demonstrar, acordar (to decide, acordarse = to remember), costar"],
-            "present-subjunctive-i-to-ie-when-accented":["pensar, cerrar, negar"],
-            "present-preterite-subjunctive-e-to-ie-when-accented-z-to-c-before-e":["empezar, comenzar"],
-            "preteriteYo-subjunctive-z-to-c-before-e":["realizar, alcanzar (to reach, catch up), utilizar, lanzar, avanzar"],
-            "preteriteYo-and-subjunctive-c-to-qu-before-e": ["buscar, sacar, explicar, tocar, acercar (to approach), dedicar, indicar, significar, collocar (to locate), aplicar"],
-            "preteriteYo-subjunctive-g-to-gu-before-e":["pagar, negar, obligar"],
-            "preteriteYo-subjunctive-u-to-ue-and-g-to-gu-before-e":["jugar"],
-            "preteriteYo-subjunctive-u-to-u-accent":["continuar"],
-            "present-subjunctive-u-to-u-accent":["actuar"],
-            "preterite-anduv":["andar"]
-        }
-    },
-    {
-        "idText": "regular-er",
-        "title": "Regular ER Verbs",
-        "rules": [],
-        "list": "deber, comprender, correr, comer, suceder, aprender, responder, vender, meter, pretender, corresponder, depender, recorrer (to travel), ejercer, proteger"
-    },
-    {
-        "idText": "irregular-er",
-        "title": "Irregular ER Verbs",
-        "rules": [],
-        "list": {
-            "ser": ["ser"],
-            "haber-auxiliary": ["haber"]
-        }
-    },
-    {
-        "idText": "regular-ir",
-        "title": "Regular IR Verbs",
-        "rules": [],
-        "list": "vivir, existir, occurir, permitir, recibir, partir, cumplir (to carry out), decidir, subir (to go up), sufrir (to experience), compartir (to divide up), consistir, insistir, asistir, discutir, definir, unir, coincidir (to agree), distinguir, admitir, acudir (to attend)"
-    },
-    {
-        "idText": "irregular-ir",
-        "title": "Irregular IR Verbs",
-        "rules": [],
-        "list": ""
-    },
-    {
-        "idCode": "eToIeAndZToCBeforeE",
-        "rule": "i to ie when accented and z to c before e"
-    },
-    {
-        "idCode": "addUInPreteriteAndSubjunctive",
-        "rule": "add u to preterite first-person, and 6x subjunctive"
-    },
-    {
-        "idText":"querer",
-        "rules":[
-            "present: quier- 4x",
-            "preterite: quis- with no accents -e / -o",
-            "future/conditional: querr-"
-        ]
-    }
+	{
+		"idText": "regular-ar",
+		"title": "Regular AR Verbs",
+		"rules": [
+			"for nosotros, present and preterite are the same",
+			"accents: 1-1-2-5-6-1",
+			"subjunctive is present with an e",
+			"imperfect: yo and nosotros are the same"
+		],
+		"list": [
+			{ "verb": "ayudar" },
+			{ "verb": "pasar" },
+			{
+				"verb": "intentar",
+				"notes": "to try on = probarse, to try as in to taste = probar"
+			},
+			{
+				"verb": "echar",
+				"examples": [
+					"Le echaré un vistazo. / I will have a look at it."
+				]
+			},
+			{
+				"verb": "esperar"
+			},
+			{
+				"verb": "confirmar"
+			},
+			{
+				"verb": "matar"
+			},
+			{
+				"verb": "terminar"
+			}
+		],
+		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
+	},
+	{
+		"idText": "irregular-ar",
+		"title": "Irregular AR Verbs",
+		"rules": [],
+		"list": [
+			{ "verb": "estar", "rules": "estoy, estás, está, estuv-, estar-" },
+			{
+				"verb": "dedicar",
+				"rules": "c to qu before e: present: dediqué, subjunctive: dedique...",
+				"examples": "Me dediqué a terminar mi trabajo. / I dedicated myself to finishing my work."
+			},
+			{
+				"verb": "pensar",
+				"rules": "e to ie when stressed, present: pienso, piensas, ..., subjunctive: piense, pienses, ..."
+			}
+		],
+		"listOld": {
+			"estar": ["estar"],
+			"dar": ["dar"],
+			"preteriteYo-and-subjunctive-lluege": ["llegar"],
+			"present-subjunctive-o-to-ue-when-accented": [
+				"encontrar, contar, recordar, mostrar, demonstrar, acordar (to decide, acordarse = to remember), costar"
+			],
+			"present-subjunctive-i-to-ie-when-accented": [
+				"pensar, cerrar, negar"
+			],
+			"present-preterite-subjunctive-e-to-ie-when-accented-z-to-c-before-e": [
+				"empezar, comenzar"
+			],
+			"preteriteYo-subjunctive-z-to-c-before-e": [
+				"realizar, alcanzar (to reach, catch up), utilizar, lanzar, avanzar"
+			],
+			"preteriteYo-and-subjunctive-c-to-qu-before-e": [
+				"buscar, sacar, explicar, tocar, acercar (to approach), dedicar, indicar, significar, collocar (to locate), aplicar"
+			],
+			"preteriteYo-subjunctive-g-to-gu-before-e": [
+				"pagar, negar, obligar"
+			],
+			"preteriteYo-subjunctive-u-to-ue-and-g-to-gu-before-e": ["jugar"],
+			"preteriteYo-subjunctive-u-to-u-accent": ["continuar"],
+			"present-subjunctive-u-to-u-accent": ["actuar"],
+			"preterite-anduv": ["andar"]
+		}
+	},
+	{
+		"idText": "regular-er",
+		"title": "Regular ER Verbs",
+		"rules": [],
+		"list": ["aprender"],
+		"listOld": "deber, comprender, correr, comer, suceder, responder, vender, meter, pretender, corresponder, depender, recorrer (to travel), ejercer, proteger"
+	},
+	{
+		"idText": "irregular-er",
+		"title": "Irregular ER Verbs",
+		"rules": [],
+		"list": [
+			{
+				"verb": "tener",
+				"rules": "tengo, tienes, tuv-, tendr-, ten-"
+			},
+			{
+				"verb": "componer",
+				"rules": "compongo, compongas, compus-, compondr-, compuesto/compondiendo"
+			},
+			{
+				"verb": "haber",
+				"rules": "he, has, ha, hub-, habr-"
+			},
+			{
+				"verb": "entender",
+				"rules": "i to ie: entiendo..."
+			},
+			{
+				"verb": "poder",
+				"rules": "o to ue: puedo, pud-, podr-, pudiendo"
+			}
+		]
+	},
+	{
+		"idText": "almost-regular-ir",
+		"title": "Almost Regular IR Verbs",
+		"rules": [],
+		"list": "escribir (escrito)"
+	},
+	{
+		"idText": "regular-ir",
+		"title": "Regular IR Verbs",
+		"rules": [],
+		"list": "vivir, existir, occurir, permitir, recibir, partir, cumplir (to carry out), decidir, subir (to go up), sufrir (to experience), compartir (to divide up), consistir, insistir, asistir, discutir, definir, unir, coincidir (to agree), distinguir, admitir, acudir (to attend)"
+	},
+	{
+		"idText": "irregular-ir",
+		"title": "Irregular IR Verbs",
+		"rules": [],
+		"list": [
+			{
+				"verb": "introducir",
+				"rules": "introduzco, preterite: introduje, introdujo, introdujeron, subjunctive: introduzca, introduzcas, ...",
+				"examples": "Él introdujo la llave en la cerradura. / He inserted the key in the lock."
+			}
+		]
+	},
+	{
+		"idCode": "eToIeAndZToCBeforeE",
+		"rule": "i to ie when accented and z to c before e"
+	},
+	{
+		"idCode": "addUInPreteriteAndSubjunctive",
+		"rule": "add u to preterite first-person, and 6x subjunctive"
+	},
+	{
+		"idText": "querer",
+		"rules": [
+			"present: quier- 4x",
+			"preterite: quis- with no accents -e / -o",
+			"future/conditional: querr-"
+		]
+	}
 ]

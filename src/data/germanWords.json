@@ -1,0 +1,30 @@
+[
+	{
+		"word": "beschwichtigen",
+		"type": "verb",
+		"english": "to appease, assuage, conciliate someone",
+		"german": "beruhigend auf jemanden, etwas einwirken",
+		"examples": [
+			"Er sagte ein paar beschwichtigende Worte. / He said a few soothing words."
+		]
+	},
+	{
+		"word": "dölmern",
+		"type": "verb",
+		"german": "sich dumm, ungeschlacht, täppisch benehmen"
+	},
+	{
+		"word": "knauserig",
+		"type": "adjective"
+	},
+	{
+		"word": "ungeschlacht",
+		"type": "adjective",
+		"english": "cloddish"
+	},
+	{
+		"word": "täppisch",
+		"type": "adjective",
+		"english": "awkward"
+	}
+]
