@@ -5,8 +5,7 @@
 		"rules": [
 			"for nosotros, present and preterite are the same",
 			"accents: 1-1-2-5-6-1",
-			"subjunctive is present with an e",
-			"imperfect: yo and nosotros are the same"
+			"subjunctive is present with an e"
 		],
 		"list": [
 			{ "verb": "ayudar" },
@@ -53,7 +52,7 @@
 		"list": [
 			{
 				"verb": "estar",
-				"rules": "estoy, estás, está, estuv-, estar-",
+				"rules": "present: estoy, estás, está, están, preterite: estuv-, future: estar-, subjunctive: esté, estés, esté, estén",
 				"rank": 5
 			},
 			{
@@ -213,7 +212,12 @@
 			},
 			{
 				"verb": "conseguir",
-				"rules": "e to i; present: consigo, consigues, consigue, consiguen; preterite: consiguió, consiguieron; subjunctive: consiga..."
+				"rules": "e to i; present: consigo, consigues, consigue, consiguen; preterite: consiguió, consiguieron; subjunctive: consiga...",
+				"examples": [
+					"No consigo encontrar mi reloj. / I can't find my watch.",
+					"No sé cómo, pero lo consigo. / I don't know how, but I'll manage it.",
+					"¿Dónde consigo equipo para deportes acuáticos? / Where do I get equipment for water sports?"
+				]
 			}
 		]
 	}

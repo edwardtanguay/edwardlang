@@ -8,7 +8,7 @@ initialSpanishVerbKinds.forEach((m) => (m.expanded = false));
 
 function App() {
 	const [spanishRules, setSpanishRules] = useState(initialSpanishRules);
-	const [spanishVerbKindss, setSpanishVerbKinds] = useState(
+	const [spanishVerbKinds, setSpanishVerbKinds] = useState(
 		initialSpanishVerbKinds
 	);
 
@@ -21,7 +21,7 @@ function App() {
 		<div className="App">
 			<h1>Edward's Spanish Site</h1>
 			<div className="verbs">
-				{spanishVerbKindss.map((verbKind, i) => {
+				{spanishVerbKinds.map((verbKind, i) => {
 					return (
 						<div className="verbKind" key={i}>
 							<div className="title">
@@ -31,10 +31,14 @@ function App() {
 								return (
 									<div className="verbObj">
 										<div className="verb">
-											{verbObj.verb}
+											<a target="_blank" href={`https://www.123teachme.com/spanish_verb_conjugation/${verbObj.verb}`}>
+												{verbObj.verb}
+											</a>
 										</div>
 										{verbObj.rules && (
-                                            <div className="rules">{verbObj.rules}</div>
+											<div className="rules">
+												{verbObj.rules}
+											</div>
 										)}
 									</div>
 								);
