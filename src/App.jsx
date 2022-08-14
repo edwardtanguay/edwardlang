@@ -35,7 +35,7 @@ function App() {
 												target="_blank"
 												href={`https://www.123teachme.com/spanish_verb_conjugation/${verbObj.verb}`}
 											>
-												{verbObj.verb}
+												{i + 1}. {verbObj.verb}
 											</a>
 										</div>
 										<ul className="subitems">

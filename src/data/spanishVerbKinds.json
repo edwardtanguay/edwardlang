@@ -72,19 +72,23 @@
 				]
 			},
 			{
-				"verb": "nnn"
+				"verb": "regalar",
+				"examples": [
+					"Mi esposa me regaló un libro. / My wife gave me a book."
+				]
 			},
 			{
-				"verb": "nnn"
+				"verb": "estudiar"
 			},
 			{
-				"verb": "nnn"
+				"verb": "visitar"
 			},
 			{
-				"verb": "nnn"
-			},
-			{
-				"verb": "nnn"
+				"verb": "lograr",
+				"examples": [
+					"Lograron sofocar el incendio. / They were able to smother the fire.",
+					"No lo lograremos. / We won't make it."
+				]
 			}
 		],
 		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
@@ -109,6 +113,28 @@
 			{
 				"verb": "pensar",
 				"rules": "e to ie when stressed, present: pienso, piensas, ..., subjunctive: piense, pienses, ..."
+			},
+			{
+				"verb": "contar",
+				"rules": "o to ue; present: cuento, cuentas, cuenta, cuentan",
+				"examples": [
+					"Sé contar hasta cien. / I can count to one hundred.",
+					"Cuando la escuché contar su experiencia, me entraron ganas de viajar a Nueva Zelanda. / When I heard her telling of her experience, I had a desire to travel to New Zealand."
+				]
+			},
+			{
+				"verb": "sacar",
+				"rules": "c to qu; preterite: saqué; subjunctive: (all)",
+				"examples": [
+					"¿Sacaste una foto? / Did you take a photo?",
+					"Yo tendré que sacarle el diente. / I'll have to pull out a tooth."
+				]
+			},
+			{
+				"verb": "mostrar"
+			},
+			{
+				"verb": "encontrar"
 			}
 		],
 		"listOld": {
@@ -157,7 +183,8 @@
 			{ "verb": "depender" },
 			{ "verb": "recorrer" },
 			{ "verb": "ejercer" },
-			{ "verb": "proteger" }
+			{ "verb": "proteger" },
+			{ "verb": "beber" }
 		]
 	},
 	{
@@ -202,7 +229,10 @@
 				"verb": "poder",
 				"rules": "o to ue: puedo, pud-, podr-, pudiendo",
 				"rank": 4.8
-			}
+			},
+			{ "verb": "llover" },
+			{ "verb": "entender" },
+			{ "verb": "leer" }
 		]
 	},
 	{
@@ -213,24 +243,24 @@
 			{ "verb": "vivir" },
 			{ "verb": "existir" },
 			{ "verb": "occurir" },
-			{ "verb": " permitir" },
-			{ "verb": " recibir" },
-			{ "verb": " partir" },
-			{ "verb": " cumplir" },
-			{ "verb": " decidir" },
-			{ "verb": " subir" },
-			{ "verb": " sufrir" },
-			{ "verb": " compartir" },
-			{ "verb": " consistir" },
-			{ "verb": " insistir" },
-			{ "verb": " asistir" },
-			{ "verb": " discutir" },
-			{ "verb": " definir" },
-			{ "verb": " unir" },
-			{ "verb": " coincidir" },
-			{ "verb": " distinguir" },
-			{ "verb": " admitir" },
-			{ "verb": " acudir" }
+			{ "verb": "permitir" },
+			{ "verb": "recibir" },
+			{ "verb": "partir" },
+			{ "verb": "cumplir" },
+			{ "verb": "decidir" },
+			{ "verb": "subir" },
+			{ "verb": "sufrir" },
+			{ "verb": "compartir" },
+			{ "verb": "consistir" },
+			{ "verb": "insistir" },
+			{ "verb": "asistir" },
+			{ "verb": "discutir" },
+			{ "verb": "definir" },
+			{ "verb": "unir" },
+			{ "verb": "coincidir" },
+			{ "verb": "distinguir" },
+			{ "verb": "admitir" },
+			{ "verb": "acudir" }
 		]
 	},
 	{
@@ -266,7 +296,9 @@
 					"No sé cómo, pero lo consigo. / I don't know how, but I'll manage it.",
 					"¿Dónde consigo equipo para deportes acuáticos? / Where do I get equipment for water sports?"
 				]
-			}
+			},
+			{ "verb": "conducir" },
+			{ "verb": "venir" }
 		]
 	}
 ]
