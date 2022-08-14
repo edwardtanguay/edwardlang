@@ -51,7 +51,20 @@ function App() {
 															className="example subitem"
 															key={i}
 														>
-															{example}
+															<div className="front">
+																{
+																	example.split(
+																		'/'
+																	)[1]
+																}
+															</div>
+															<div className="back">
+																{
+																	example.split(
+																		'/'
+																	)[0]
+																}
+															</div>
 														</li>
 													);
 												}
