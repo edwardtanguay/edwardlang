@@ -63,9 +63,11 @@ body {
 
 		ul.subitems {
 			margin-top: 0;
+			margin-bottom: -.5rem;
 
 			.back {
-				opacity: .1;
+				opacity: .05;
+				// color: #2a2a2a;
 			}
 		}
 
