@@ -29,17 +29,34 @@ function App() {
 							</div>
 							{verbKind.list.map((verbObj, i) => {
 								return (
-									<div className="verbObj">
+									<div className="verbObj" key={i}>
 										<div className="verb">
-											<a target="_blank" href={`https://www.123teachme.com/spanish_verb_conjugation/${verbObj.verb}`}>
+											<a
+												target="_blank"
+												href={`https://www.123teachme.com/spanish_verb_conjugation/${verbObj.verb}`}
+											>
 												{verbObj.verb}
 											</a>
 										</div>
-										{verbObj.rules && (
-											<div className="rules">
-												{verbObj.rules}
-											</div>
-										)}
+										<ul className="subitems">
+											{verbObj.rules && (
+												<li className="rules subitem">
+													{verbObj.rules}
+												</li>
+											)}
+											{verbObj.examples?.map(
+												(example, i) => {
+													return (
+														<li
+															className="example subitem"
+															key={i}
+														>
+															{example}
+														</li>
+													);
+												}
+											)}
+										</ul>
 									</div>
 								);
 							})}

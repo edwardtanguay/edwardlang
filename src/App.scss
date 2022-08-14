@@ -47,11 +47,22 @@ body {
 
 	.verbObj {
 		margin-bottom: 1rem;
+
 		.verb {
 			font-weight: bold;
 		}
+
 		.rules {
-			color: rgb(237, 237, 134);
+			color: tomato;
+		}
+
+		.example {
+			font-style: italic;
+			color: lightgreen;
+		}
+
+		ul.subitems {
+			margin-top: 0;
 		}
 
 	}

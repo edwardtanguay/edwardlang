@@ -98,7 +98,9 @@
 			{
 				"verb": "dedicar",
 				"rules": "c to qu before e: present: dediqué, subjunctive: dedique...",
-				"examples": "Me dediqué a terminar mi trabajo. / I dedicated myself to finishing my work."
+				"examples": [
+					"Me dediqué a terminar mi trabajo. / I dedicated myself to finishing my work."
+				]
 			},
 			{
 				"verb": "pensar",
@@ -244,7 +246,9 @@
 			{
 				"verb": "introducir",
 				"rules": "introduzco, preterite: introduje, introdujo, introdujeron, subjunctive: introduzca, introduzcas, ...",
-				"examples": "Él introdujo la llave en la cerradura. / He inserted the key in the lock."
+				"examples": [
+					"Él introdujo la llave en la cerradura. / He inserted the key in the lock."
+				]
 			},
 			{
 				"verb": "sugerir",
