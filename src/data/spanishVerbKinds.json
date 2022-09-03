@@ -89,6 +89,13 @@
 					"Lograron sofocar el incendio. / They were able to smother the fire.",
 					"No lo lograremos. / We won't make it."
 				]
+			},
+			{
+				"verb": "girar",
+				"examples": [
+					"Deberías haber girado a la derecha. / You should have turned right.",
+					"Estoy bastante seguro de que no deberíamos haber girado a la derecha allí atrás. / I'm pretty sure we shouldn't have taken a right back there."
+				]
 			}
 		],
 		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
@@ -135,6 +142,13 @@
 			},
 			{
 				"verb": "encontrar"
+			},
+			{
+				"verb": "enviar",
+				"rules": "i to í; present: envío, envías, envía, -, -, envían; subjunctive: envíe, envíes, envíe, -, -, envían",
+				"examples": [
+					"Enviaremos la caja a su ciudad. / We'll ship the box to your city."
+				]
 			}
 		],
 		"listOld": {
@@ -216,6 +230,15 @@
 				"verb": "querer",
 				"rules": "e to ie; present: quiero...; preterite: quis-; future/conditional: querr",
 				"rank": 4.7
+			},
+			{
+				"verb": "poner",
+				"rules": "present: pongo, -, -, -, -; presentPerfect: puesto; preterite: pus-; future: pondr-; subjunctive: pong-",
+				"rank": 4.9,
+				"examples": [
+					"Ponga eso por escrito. / Put that in writing.",
+					"Ella es linda sin importar lo que se ponga. / She's beautiful regardless what she wears."
+				]
 			},
 			{
 				"verb": "componer",
