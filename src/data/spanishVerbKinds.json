@@ -96,6 +96,27 @@
 					"Deberías haber girado a la derecha. / You should have turned right.",
 					"Estoy bastante seguro de que no deberíamos haber girado a la derecha allí atrás. / I'm pretty sure we shouldn't have taken a right back there."
 				]
+			},
+			{
+				"verb": "cuidar"
+			},
+			{
+				"verb": "mejorar"
+			},
+			{
+				"verb": "apuntar"
+			},
+			{
+				"verb": "parar",
+				"examples": [
+					"No paramos para comer, así que tenemos hambre ahorita. / We did not stop to eat, therefore we are hungry right now."
+				]
+			},
+			{
+				"verb": "fallar",
+				"examples": [
+					"Me está fallando la memoria. / My memory is failing me."
+				]
 			}
 		],
 		"listOld": "quedar (remain), hablar, llevar (bring), dejar (abandon), llamar, tomar (take a drink), tratar (treat), mirar (look at), entrar, trabajar, terminar, necesitar (require), resultar, cambiar, presentar, crear, considerar, acabar (finish), ganar (gain), formar, aceptar, lograr (attain), estudiar, preguntar, gustar (please), escuchar (listen), levantar (to get up), intentar (attempt), usar, olvidar (forget), ocupar, fijar (to fasten), comprar (buy), evitar (avoid), interesar, importar, observar, imaginar, desarrollar (to develop), señalar (to indicate), preparar, faltar (to lack), acompañar, desear (desire), enseñar (to teach), representar, mandar (to give an order), asegurar (to secure), guardar, iniciar, bajar (to lower), notar, cortar (to cut), aprovechar (to take advantage of), apoyar (to support), aumentar (to increase), abandonar, expresar"
@@ -142,6 +163,9 @@
 			},
 			{
 				"verb": "encontrar"
+			},
+			{
+				"verb": "forzar"
 			},
 			{
 				"verb": "enviar",
@@ -255,7 +279,8 @@
 			},
 			{ "verb": "llover" },
 			{ "verb": "entender" },
-			{ "verb": "leer" }
+			{ "verb": "leer" },
+			{ "verb": "escoger" }
 		]
 	},
 	{
